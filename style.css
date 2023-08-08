@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    font-weight: normal;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    width: 100%;
+    font-family: 'Overpass', sans-serif;
+    background-color: #f8f7f3;
+    color: #1a24fb;
+}
+
+.header-el {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #145434;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0,2em;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #1a24fb;
+    color: #f8f7f3;
+}
+
+.header-el > .menu-icon {
+    font-size: 24px;
+  }
+
+  main {
+    max-width: 1280px;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px 20px;
+    justify-content: center;
+}
+
+.card-div {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 5px;
+}
+
+.card-text {
+    background-color: #f8f7f3;
+    border: 1px solid #1a24fb;
+    padding: 40px;
+    padding-bottom: 20px;
+    margin: 10px;
+    position: relative; 
+    height: 450px; 
+    gap: 10px;
+}
+
+.card-num {
+    position: absolute;
+    top: 5px; 
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #1a24fb;
+}
+
+.book-sub {
+    font-size: 12px;
+    font-weight: 400;
+    color: #1a24fb;
+    letter-spacing: 0,2em;
+}
+
+.beer-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1a24fb;
+    padding-bottom: 20px;
+}
+
+.book-text {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1a24fb;
+}
+
+.button {
+    width: 100%;
+    height: 18px;
+    background-color: #f8f7f3;
+    color: #1a24fb;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button > .btn-icon {
+  margin-right: 18px;
+} 
+
+.button:hover{
+    background-color: #1a24fb;
+    color: #f8f7f3;
+  }
+
